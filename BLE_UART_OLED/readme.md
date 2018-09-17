@@ -22,7 +22,13 @@ Required libraries:
 # Step 3 - Purchase a board
 I've used a Wemos Lolin32 with integrated OLED 128x64. Ebay is full.
 
-# Step 4 - How to create XBM Images
+# Step 4 - Install Terminal App
+I've used Serial Bluetooth Terminal by Kai Morich, it's free and works very well.
+ESP32 doesnt' require pairing, so DON'T try to pair your phone with ESP32: will not work!
+You must only scan Bluetooth devices from App, then select the device you want
+Then press the connect button as showed in the video above.
+
+# Bonus: How to create XBM Images
 * obtain an image, max height 64px
 * convert it in BMP mono (use photoshop) and then save as BMP
 * Goto: https://www.online-utility.org/image_converter.jsp
